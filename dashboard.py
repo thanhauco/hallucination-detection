@@ -11,7 +11,7 @@ from hallucination.metrics import HallucinationMetrics
 
 st.set_page_config(page_title="Hallucination Monitor", layout="wide")
 
-st.title("🤖 Hallucination Rate Monitor (2026)")
+st.title("🤖 Hallucination Rate Monitor (2025)")
 
 st.markdown("""
 This dashboard visualizes the **Hallucination Rate** of your LLM application in real-time.
@@ -25,7 +25,7 @@ It tracks metrics across:
 # Mock Data Generation for Demo
 @st.cache_data
 def load_mock_data():
-    dates = pd.date_range(start="2026-01-01", periods=100, freq="H")
+    dates = pd.date_range(start="2025-01-01", periods=100, freq="H")
     data = []
     for d in dates:
         # Simulate varying hallucination rates
@@ -46,7 +46,7 @@ def load_mock_data():
             "fact_check_fail": fact_fail,
             "cove_score": cove_score,
             "ner_consistency": ner_consistency,
-            "model_version": "gpt-4o-2026"
+            "model_version": "gpt-4o-2025"
         })
     return pd.DataFrame(data)
 
