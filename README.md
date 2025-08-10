@@ -58,6 +58,7 @@ graph TD
 | **Phase 3: FactCheckAgent**    | Autonomous verification with Search Tools (DuckDuckGo/Wiki) | ✅ Completed |
 | **Phase 4: Dashboard**         | Streamlit Visualization of all metrics                      | ✅ Completed |
 | **Phase 5: Advanced**          | Chain of Verification (CoVe), Entity Consistency (NER)      | ✅ Completed |
+| **Phase 6: ML Scorer**         | Ensemble Logistic Regression Scorer (scikit-learn)          | ✅ Completed |
 
 ## 🚀 Features
 
@@ -178,6 +179,10 @@ The Streamlit dashboard allows real-time monitoring of your application's health
   - [x] Implement Chain of Verification (CoVe)
   - [x] Implement Entity Consistency Check (NER)
   - [x] Update Dashboard with new metrics
+- [x] Phase 6: ML Ensemble Scorer (Aug 2025)
+  - [x] Add scikit-learn and implement EnsembleModel
+  - [x] Train/Mock robust weight optimization
+  - [x] Commit to Aug 2025 history
 - [x] Update all documentation
 - [x] Simulate Git History (20 commits, Jul 2025)
 
