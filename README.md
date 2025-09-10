@@ -59,6 +59,7 @@ graph TD
 | **Phase 4: Dashboard**         | Streamlit Visualization of all metrics                      | ✅ Completed |
 | **Phase 5: Advanced**          | Chain of Verification (CoVe), Entity Consistency (NER)      | ✅ Completed |
 | **Phase 6: ML Scorer**         | Ensemble Logistic Regression Scorer (scikit-learn)          | ✅ Completed |
+| **Phase 7: SelfCheckGPT**      | NLI-based Consistency Checking (DeBERTa)                    | ✅ Completed |
 
 ## 🚀 Features
 
@@ -183,6 +184,10 @@ The Streamlit dashboard allows real-time monitoring of your application's health
   - [x] Add scikit-learn and implement EnsembleModel
   - [x] Train/Mock robust weight optimization
   - [x] Commit to Aug 2025 history
+- [x] Phase 7: SelfCheckGPT with NLI (Sept 2025)
+  - [x] Upgrade detector.py with DeBERTa NLI consistency
+  - [x] Add tests for SelfCheckGPT
+  - [x] Commit to Sept 2025 history
 - [x] Update all documentation
 - [x] Simulate Git History (20 commits, Jul 2025)
 
